@@ -7,7 +7,11 @@
     "time-test": "./node_modules/.bin/cucumber-js ../features/time.feature --require features/step_definitions",
     "historyv3-test": "./node_modules/.bin/cucumber-js ../features/historyv3.feature --require features/step_definitions",
     "publish-test": "./node_modules/.bin/cucumber-js ../features/publish.feature --require features/step_definitions",
-    "subscribe-test": "./node_modules/.bin/cucumber-js ../features/subscribe.feature --require features/step_definitions"
+    "subscribe-test": "./node_modules/.bin/cucumber-js ../features/subscribe.feature --require features/step_definitions",
+    "pushv1-test": "./node_modules/.bin/cucumber-js ../features/push_v1.feature --require features/step_definitions",
+    "pushv2-test": "./node_modules/.bin/cucumber-js ../features/push_v2.feature --require features/step_definitions",
+    "channelGroups-test": "./node_modules/.bin/cucumber-js ../features/channelGroups.feature --require features/step_definitions",
+    "messageActions-test": "./node_modules/.bin/cucumber-js ../features/messageActions.feature --require features/step_definitions"
   },
   "devDependencies": {
     "cucumber": "^6.0.5",
