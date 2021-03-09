@@ -11,7 +11,8 @@
     "pushv1-test": "./node_modules/.bin/cucumber-js ../features/push_v1.feature --require features/step_definitions",
     "pushv2-test": "./node_modules/.bin/cucumber-js ../features/push_v2.feature --require features/step_definitions",
     "channelGroups-test": "./node_modules/.bin/cucumber-js ../features/channelGroups.feature --require features/step_definitions",
-    "messageActions-test": "./node_modules/.bin/cucumber-js ../features/messageActions.feature --require features/step_definitions"
+    "messageActions-test": "./node_modules/.bin/cucumber-js ../features/messageActions.feature --require features/step_definitions",
+    "presence-test": "./node_modules/.bin/cucumber-js ../features/presence.feature --require features/step_definitions"
   },
   "devDependencies": {
     "cucumber": "^6.0.5",
